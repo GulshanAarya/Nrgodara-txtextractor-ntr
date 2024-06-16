@@ -15,7 +15,7 @@ info = {
  "android_id": "asdasdasda"
 }
 
-auth = "7b81679d-a829-4476-8dcf-9c3bb4e0c80a"
+auth = "6598765905:AAGuMjj9Z6QdT9Ctysase8GKoep9wI6FMMg"
 res = requests.post(login_url, data=json.dumps(info), headers={"Auth":auth})
 login_res = res.json()
 login_dict = login_res["response"]
